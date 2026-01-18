@@ -1,0 +1,5 @@
+".venv/" 
+"logs/" 
+"trades.csv" 
+"config.json" 
+"pycache/" 

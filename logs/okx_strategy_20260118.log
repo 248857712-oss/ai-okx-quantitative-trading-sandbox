@@ -1,0 +1,218 @@
+2026-01-18 15:49:26 - OKXQuantStrategy - INFO - 测试信息日志
+2026-01-18 15:49:26 - OKXQuantStrategy - WARNING - 测试警告日志
+2026-01-18 15:49:26 - OKXQuantStrategy - ERROR - 测试错误日志
+2026-01-18 15:50:09 - OKXQuantStrategy - INFO - 测试信息日志
+2026-01-18 15:50:09 - OKXQuantStrategy - WARNING - 测试警告日志
+2026-01-18 15:50:09 - OKXQuantStrategy - ERROR - 测试错误日志
+2026-01-18 15:55:38 - OKXQuantStrategy - INFO - 测试信息日志
+2026-01-18 15:55:38 - OKXQuantStrategy - WARNING - 测试警告日志
+2026-01-18 15:55:38 - OKXQuantStrategy - ERROR - 测试错误日志
+2026-01-18 15:55:45 - OKXQuantStrategy - INFO - 测试信息日志
+2026-01-18 15:55:45 - OKXQuantStrategy - WARNING - 测试警告日志
+2026-01-18 15:55:45 - OKXQuantStrategy - ERROR - 测试错误日志
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - ✅ OKX量化策略初始化完成
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - 📈 交易对: BTC-USDT-SWAP | 杠杆: 10倍
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - 📊 仓位比例: 10.0% | 循环间隔: 300s
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - 🤖 模型配置: 逻辑回归(权重0.6) + 随机森林(权重0.4)
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - ⚠️  按下Ctrl+C将自动平仓并退出程序
+2026-01-18 16:02:43 - OKXQuantStrategy - INFO - ============================================================
+
+2026-01-18 16:02:44 - OKXQuantStrategy - INFO - ✅ 杠杆设置成功 | 10倍
+2026-01-18 16:02:44 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:02:44 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:02:44 - OKXQuantStrategy - INFO - ✅ 交易信号模型训练完成 | 样本数:281 | 上涨概率:51.60%
+2026-01-18 16:02:44 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - 📊 交易信号: 📉 观望 | 持仓:0
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:02:45 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续... (Ctrl+C终止并平仓)
+2026-01-18 16:07:45 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第2轮循环 ----------------------------------------
+2026-01-18 16:07:46 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:07:46 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:07:46 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:07:47 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:07:47 - OKXQuantStrategy - INFO - 📊 交易信号: 📉 观望 | 持仓:0
+2026-01-18 16:07:47 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:07:47 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续... (Ctrl+C终止并平仓)
+2026-01-18 16:08:09 - OKXQuantStrategy - INFO - 
+
+🛑 检测到用户终止程序！
+2026-01-18 16:08:09 - OKXQuantStrategy - INFO - ✅ 当前无持仓，无需平仓
+2026-01-18 16:08:09 - OKXQuantStrategy - INFO - 
+📊 策略运行结束 | 总交易次数: 0
+2026-01-18 16:08:09 - OKXQuantStrategy - INFO - 🕒 结束时间: 2026-01-18 16:08:09
+2026-01-18 16:08:09 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - ✅ 交易所初始化成功（合约模拟盘）
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - ✅ 模型配置: 逻辑回归(权重0.6) + 随机森林(权重0.4)
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - ✅ 仓位配置: 账户权益的10.0%
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - ✅ 止盈止损阈值: 止盈概率≥70.0% | 止损概率≥70.0%
+2026-01-18 16:10:56 - OKXQuantStrategy - WARNING - ⚠️  按下Ctrl+C将自动平仓并退出程序
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - 📈 OKX合约模拟盘策略启动 | 2026-01-18 16:10:56
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - 📊 交易对:BTC-USDT-SWAP | 杠杆:10倍 | 仓位比例:10.0%
+2026-01-18 16:10:56 - OKXQuantStrategy - INFO - ============================================================
+
+2026-01-18 16:10:57 - OKXQuantStrategy - INFO - ✅ 杠杆设置成功 | 10倍
+2026-01-18 16:10:57 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:10:57 - OKXQuantStrategy - ERROR - ❌ K线获取失败: 8 columns passed, passed data had 9 columns
+2026-01-18 16:10:57 - OKXQuantStrategy - ERROR - ❌ 训练数据为空
+2026-01-18 16:10:57 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-18 16:10:57 - OKXQuantStrategy - ERROR - ❌ K线获取失败: 8 columns passed, passed data had 9 columns
+2026-01-18 16:10:57 - OKXQuantStrategy - ERROR - ❌ K线获取失败: 8 columns passed, passed data had 9 columns
+2026-01-18 16:10:58 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:10:58 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:10:58 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:10:58 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:12:21 - OKXQuantStrategy - INFO - 
+
+🛑 检测到用户终止程序！
+2026-01-18 16:12:21 - OKXQuantStrategy - INFO - ✅ 当前无持仓，无需平仓
+2026-01-18 16:12:21 - OKXQuantStrategy - INFO - 
+📊 策略运行结束 | 总交易次数: 0
+2026-01-18 16:12:21 - OKXQuantStrategy - INFO - 🕒 结束时间: 2026-01-18 16:12:21
+2026-01-18 16:12:21 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - ✅ 交易所初始化成功（合约模拟盘）
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - ✅ 模型配置: 逻辑回归(权重0.6) + 随机森林(权重0.4)
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - ✅ 仓位配置: 账户权益的10.0%
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - ✅ 止盈止损阈值: 止盈概率≥70.0% | 止损概率≥70.0%
+2026-01-18 16:14:16 - OKXQuantStrategy - WARNING - ⚠️  按下Ctrl+C将自动平仓并退出程序
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - 📈 OKX合约模拟盘策略启动 | 2026-01-18 16:14:16
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - 📊 交易对:BTC-USDT-SWAP | 杠杆:10倍 | 仓位比例:10.0%
+2026-01-18 16:14:16 - OKXQuantStrategy - INFO - ============================================================
+
+2026-01-18 16:14:17 - OKXQuantStrategy - INFO - ✅ 杠杆设置成功 | 10倍
+2026-01-18 16:14:17 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:14:17 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:14:18 - OKXQuantStrategy - INFO - ✅ 交易信号模型训练完成 | 样本数:281 | 上涨概率:51.60%
+2026-01-18 16:14:18 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-18 16:14:18 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:14:19 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:16:35 - OKXQuantStrategy - INFO - 
+
+🛑 检测到用户终止程序！
+2026-01-18 16:16:35 - OKXQuantStrategy - INFO - ✅ 当前无持仓，无需平仓
+2026-01-18 16:16:35 - OKXQuantStrategy - INFO - 
+📊 策略运行结束 | 总交易次数: 0
+2026-01-18 16:16:35 - OKXQuantStrategy - INFO - 🕒 结束时间: 2026-01-18 16:16:35
+2026-01-18 16:16:35 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - ✅ 交易所初始化成功（合约模拟盘）
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - ✅ 模型配置: 逻辑回归(权重0.6) + 随机森林(权重0.4)
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - ✅ 仓位配置: 账户权益的10.0%
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - ✅ 止盈止损阈值: 止盈概率≥70.0% | 止损概率≥70.0%
+2026-01-18 16:17:08 - OKXQuantStrategy - WARNING - ⚠️  按下Ctrl+C将自动平仓并退出程序
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - ============================================================
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - 📈 OKX合约模拟盘策略启动 | 2026-01-18 16:17:08
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - 📊 交易对:BTC-USDT-SWAP | 杠杆:10倍 | 仓位比例:10.0%
+2026-01-18 16:17:08 - OKXQuantStrategy - INFO - ============================================================
+
+2026-01-18 16:17:10 - OKXQuantStrategy - INFO - ✅ 杠杆设置成功 | 10倍
+2026-01-18 16:17:10 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:17:10 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - ✅ 交易信号模型训练完成 | 样本数:281 | 上涨概率:51.60%
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:17:11 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:22:11 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第2轮循环 ----------------------------------------
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:22:13 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:27:13 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第3轮循环 ----------------------------------------
+2026-01-18 16:27:14 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:27:15 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:32:15 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第4轮循环 ----------------------------------------
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:32:17 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:37:17 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第5轮循环 ----------------------------------------
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:37:18 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:42:18 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第6轮循环 ----------------------------------------
+2026-01-18 16:42:19 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:42:19 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:42:19 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:42:20 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:42:20 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:42:20 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:42:20 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:42:20 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:47:20 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第7轮循环 ----------------------------------------
+2026-01-18 16:47:21 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:47:21 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:47:21 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:47:22 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:47:22 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:47:22 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:47:22 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:47:22 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
+2026-01-18 16:52:22 - OKXQuantStrategy - INFO - 
+---------------------------------------- 第8轮循环 ----------------------------------------
+2026-01-18 16:52:22 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1h | 数量:300 | 最新价:95060.00
+2026-01-18 16:52:22 - OKXQuantStrategy - INFO - ✅ 获取K线 | 周期:1d | 数量:50 | 最新价:95277.30
+2026-01-18 16:52:22 - OKXQuantStrategy - INFO - ✅ 允许交易 | 当前价:95277.30 | 布林下轨:89567.52
+2026-01-18 16:52:23 - OKXQuantStrategy - INFO - ✅ 当前持仓 | 本地记录: 无持仓
+2026-01-18 16:52:23 - OKXQuantStrategy - INFO - 📊 信号计算 | LR概率:56.01% | RF概率:28.29% | 加权概率:44.92%
+2026-01-18 16:52:23 - OKXQuantStrategy - INFO - 📊 交易信号:📉 观望 | 持仓:0
+2026-01-18 16:52:23 - OKXQuantStrategy - INFO - 
+📋 运行统计 | 总交易次数: 0
+2026-01-18 16:52:23 - OKXQuantStrategy - INFO - ⏳ 等待300秒后继续...
