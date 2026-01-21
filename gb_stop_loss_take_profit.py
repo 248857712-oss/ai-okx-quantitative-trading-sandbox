@@ -39,7 +39,6 @@ class GBSLTPModel:
             max_features='sqrt',
             random_state=random_state
         )
-
         self.tp_trained = False
         self.sl_trained = False
         self.feature_cols = ['ret', 'range', 'vol_ratio', 'ma_ratio', 'bb_pos', 'rsi', 'price_diff_ratio']
@@ -91,7 +90,7 @@ class GBSLTPModel:
                 f"📊 成本差特征生效 | 开仓价:{entry_price} | 最新价:{df['close'].iloc[-1]} | 差值比:{df['price_diff_ratio'].iloc[-1]:.4f}")
         else:
             df['price_diff_ratio'] = 0.0
-            logger.warning("⚠️  未传入开仓价，成本差特征为0")
+            logger.warning("⚠️ 未传入开仓价，成本差特征为0")
 
         df = df.dropna(subset=self.feature_cols, how='all')
         logger.info(f"✅ 特征提取完成 | 有效样本数:{len(df)}")
@@ -107,6 +106,7 @@ class GBSLTPModel:
             return pd.DataFrame()
 
         df = df.copy()
+
         # 预测未来2根K线（平衡敏感度和稳定性）
         df['future_ret'] = df['close'].shift(-1) / df['close'] - 1
         df['future_ret'] = df['future_ret'].fillna(0.0)
@@ -120,6 +120,7 @@ class GBSLTPModel:
         tp_ratio = df['tp_label'].mean()
         sl_ratio = df['sl_label'].mean()
         neutral_ratio = 1 - tp_ratio - sl_ratio
+
         logger.info(f"✅ 标签创建 | 止盈:{tp_ratio:.2%} | 止损:{sl_ratio:.2%} | 中性:{neutral_ratio:.2%}")
         return df
 
@@ -170,6 +171,7 @@ class GBSLTPModel:
 
         self.tp_trained = True
         self.sl_trained = True
+
         logger.info(f"✅ 模型训练完成 | 止盈训练准确率:{tp_train_acc:.2%} | 止盈测试准确率:{tp_test_acc:.2%}")
         logger.info(f"✅ 模型训练完成 | 止损训练准确率:{sl_train_acc:.2%} | 止损测试准确率:{sl_test_acc:.2%}")
 
@@ -205,7 +207,6 @@ class GBSLTPModel:
 
             logger.info(f"✅ 预测完成 | 止盈概率:{tp_prob:.2%} | 止损概率:{sl_prob:.2%}")
             return tp_prob, sl_prob
-
         except Exception as e:
             logger.error(f"❌ 预测异常：{str(e)}", exc_info=True)
             return 0.0, 0.0

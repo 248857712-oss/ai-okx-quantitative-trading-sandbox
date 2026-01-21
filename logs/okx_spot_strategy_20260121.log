@@ -1,0 +1,179 @@
+2026-01-21 17:36:15 - OKXSpotQuantStrategy - INFO - [main:198] - ✅ 现货杠杆策略初始化完成
+2026-01-21 17:36:15 - OKXSpotQuantStrategy - INFO - [main:199] - 交易对: BTC-USDT | 杠杆: 10倍 | 仓位比例: 10.0%
+2026-01-21 17:36:15 - OKXSpotQuantStrategy - INFO - [main:544] - ============================================================
+2026-01-21 17:36:15 - OKXSpotQuantStrategy - INFO - [main:545] - 📈 OKX现货杠杆模拟盘策略启动 | 2026-01-21 17:36:15
+2026-01-21 17:36:15 - OKXSpotQuantStrategy - INFO - [main:546] - ============================================================
+
+2026-01-21 17:36:16 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:36:16 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:36:16 - OKXSpotQuantStrategy - INFO - [log_utils:51] - 📌 开始执行: train
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:281] - ✅ 模型训练完成 | 上涨概率:47.33%
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [log_utils:54] - ✅ 执行成功: train
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89450.00 USDT
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89450.00 USDT
+2026-01-21 17:36:17 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89450.00 | 布林下轨:89990.75
+2026-01-21 17:36:18 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:36:18 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:36:18 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:36:18 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:36:18 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:36:45 - OKXSpotQuantStrategy - INFO - [main:590] - 
+🛑 用户终止程序
+2026-01-21 17:36:45 - OKXSpotQuantStrategy - INFO - [main:594] - 
+================================================== 交易统计报告 ==================================================
+2026-01-21 17:36:45 - OKXSpotQuantStrategy - INFO - [main:599] - 📊 暂无交易记录
+2026-01-21 17:36:45 - OKXSpotQuantStrategy - INFO - [main:600] - 📋 策略结束 | 总交易次数:0 | 时间:2026-01-21 17:36:45
+2026-01-21 17:36:45 - OKXSpotQuantStrategy - INFO - [main:602] - ====================================================================================================
+2026-01-21 17:37:08 - OKXSpotQuantStrategy - INFO - [main:198] - ✅ 现货杠杆策略初始化完成
+2026-01-21 17:37:08 - OKXSpotQuantStrategy - INFO - [main:199] - 交易对: BTC-USDT | 杠杆: 10倍 | 仓位比例: 10.0%
+2026-01-21 17:37:08 - OKXSpotQuantStrategy - INFO - [main:544] - ============================================================
+2026-01-21 17:37:08 - OKXSpotQuantStrategy - INFO - [main:545] - 📈 OKX现货杠杆模拟盘策略启动 | 2026-01-21 17:37:08
+2026-01-21 17:37:08 - OKXSpotQuantStrategy - INFO - [main:546] - ============================================================
+
+2026-01-21 17:37:09 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:37:09 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:37:09 - OKXSpotQuantStrategy - INFO - [log_utils:51] - 📌 开始执行: train
+2026-01-21 17:37:10 - OKXSpotQuantStrategy - INFO - [main:281] - ✅ 模型训练完成 | 上涨概率:47.33%
+2026-01-21 17:37:10 - OKXSpotQuantStrategy - INFO - [log_utils:54] - ✅ 执行成功: train
+2026-01-21 17:37:10 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-21 17:37:10 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89413.30 USDT
+2026-01-21 17:37:10 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:37:10 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89413.30 USDT
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89413.30 | 布林下轨:89990.75
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:37:11 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:38:11 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第2轮循环 ----------------------------------------
+2026-01-21 17:38:11 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89463.50 USDT
+2026-01-21 17:38:11 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89499.20 USDT
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89499.20 | 布林下轨:89990.75
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:38:12 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:38:37 - OKXSpotQuantStrategy - INFO - [main:590] - 
+🛑 用户终止程序
+2026-01-21 17:38:37 - OKXSpotQuantStrategy - INFO - [main:594] - 
+================================================== 交易统计报告 ==================================================
+2026-01-21 17:38:37 - OKXSpotQuantStrategy - INFO - [main:599] - 📊 暂无交易记录
+2026-01-21 17:38:37 - OKXSpotQuantStrategy - INFO - [main:600] - 📋 策略结束 | 总交易次数:0 | 时间:2026-01-21 17:38:37
+2026-01-21 17:38:37 - OKXSpotQuantStrategy - INFO - [main:602] - ====================================================================================================
+2026-01-21 17:39:15 - OKXSpotQuantStrategy - INFO - [main:198] - ✅ 现货杠杆策略初始化完成
+2026-01-21 17:39:15 - OKXSpotQuantStrategy - INFO - [main:199] - 交易对: BTC-USDT | 杠杆: 10倍 | 仓位比例: 10.0%
+2026-01-21 17:39:15 - OKXSpotQuantStrategy - INFO - [main:544] - ============================================================
+2026-01-21 17:39:15 - OKXSpotQuantStrategy - INFO - [main:545] - 📈 OKX现货杠杆模拟盘策略启动 | 2026-01-21 17:39:15
+2026-01-21 17:39:15 - OKXSpotQuantStrategy - INFO - [main:546] - ============================================================
+
+2026-01-21 17:39:16 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:39:16 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:39:16 - OKXSpotQuantStrategy - INFO - [log_utils:51] - 📌 开始执行: train
+2026-01-21 17:39:16 - OKXSpotQuantStrategy - INFO - [main:281] - ✅ 模型训练完成 | 上涨概率:47.33%
+2026-01-21 17:39:16 - OKXSpotQuantStrategy - INFO - [log_utils:54] - ✅ 执行成功: train
+2026-01-21 17:39:16 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第1轮循环 ----------------------------------------
+2026-01-21 17:39:17 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89463.50 USDT
+2026-01-21 17:39:17 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:39:17 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:39:17 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89463.60 USDT
+2026-01-21 17:39:17 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89463.60 | 布林下轨:89990.75
+2026-01-21 17:39:18 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:39:18 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:39:18 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:39:18 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:39:18 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:40:18 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第2轮循环 ----------------------------------------
+2026-01-21 17:40:18 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89452.90 USDT
+2026-01-21 17:40:18 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:40:19 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:40:19 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89452.90 USDT
+2026-01-21 17:40:19 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89452.90 | 布林下轨:89990.75
+2026-01-21 17:40:20 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:40:20 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:40:20 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:40:20 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:40:20 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:41:20 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第3轮循环 ----------------------------------------
+2026-01-21 17:41:20 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89452.90 USDT
+2026-01-21 17:41:20 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:41:20 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89452.90 USDT
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89452.90 | 布林下轨:89990.75
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:41:21 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:42:21 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第4轮循环 ----------------------------------------
+2026-01-21 17:42:21 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89453.00 USDT
+2026-01-21 17:42:22 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:42:22 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:42:22 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89453.00 USDT
+2026-01-21 17:42:22 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89453.00 | 布林下轨:89990.75
+2026-01-21 17:42:23 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:42:23 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:42:23 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:42:23 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:42:23 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:43:23 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第5轮循环 ----------------------------------------
+2026-01-21 17:43:23 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89388.40 USDT
+2026-01-21 17:43:23 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:43:23 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89388.40 USDT
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89388.40 | 布林下轨:89990.75
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:43:24 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:44:24 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第6轮循环 ----------------------------------------
+2026-01-21 17:44:24 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89383.40 USDT
+2026-01-21 17:44:25 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:44:25 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:44:25 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89383.40 USDT
+2026-01-21 17:44:25 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89383.40 | 布林下轨:89990.75
+2026-01-21 17:44:26 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:44:26 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:44:26 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:44:26 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:44:26 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:45:26 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第7轮循环 ----------------------------------------
+2026-01-21 17:45:26 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89408.60 USDT
+2026-01-21 17:45:26 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:45:27 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:45:27 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89406.10 USDT
+2026-01-21 17:45:27 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89406.10 | 布林下轨:89990.75
+2026-01-21 17:45:28 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:45:28 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:45:28 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:45:28 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:45:28 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
+2026-01-21 17:46:28 - OKXSpotQuantStrategy - INFO - [main:557] - 
+---------------------------------------- 第8轮循环 ----------------------------------------
+2026-01-21 17:46:28 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89377.20 USDT
+2026-01-21 17:46:28 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1h | 数量:300
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:254] - ✅ 获取K线 | 周期:1d | 数量:50
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:207] - ✅ 实时价更新 | BTC-USDT = 89379.90 USDT
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:378] - ⚠️ 禁止交易（跌破布林下轨） | 当前价:89379.90 | 布林下轨:89990.75
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:402] - ✅ 当前无现货持仓
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:297] - 📊 信号 | LR:45.58% | RF:35.73% | 加权:41.64%
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:568] - 📊 交易信号:📈 买入 | 持仓:0
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:582] - 📋 运行统计 | 总交易次数:0
+2026-01-21 17:46:29 - OKXSpotQuantStrategy - INFO - [main:584] - ⏳ 等待60秒...
