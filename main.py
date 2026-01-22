@@ -322,7 +322,7 @@ class OKXFuturesTrader:
             self.logger.warning(f"⚠️ 使用测试价格 {current_price} USDT")
 
         order_value = balance * self.position_ratio * self.leverage
-        order_amount = order_value / current_price
+        order_amount = order_value / current_price*100
         order_amount = round(order_amount, 2)  # BTC合约最小单位0.01
 
         min_amount = 0.001
@@ -330,7 +330,7 @@ class OKXFuturesTrader:
             self.logger.warning(f"⚠️ 下单量过小，强制设为{min_amount}")
             order_amount = min_amount
 
-        self.logger.info(f"📊 仓位计算 | 余额: {balance} USDT | 下单金额: {order_value:.2f} USDT | 数量: {order_amount} 张")
+        self.logger.info(f"📊 仓位计算 | 余额: {balance} USDT | 下单金额: {order_value:.2f} USDT | 数量: {order_amount/100} btc")
         return order_amount
 
     def fetch_ohlcv(self, tf='1h', limit=300):
@@ -448,7 +448,7 @@ class OKXFuturesTrader:
             sl_prob >= self.sl_prob_threshold
         ]
 
-        self.logger.info(f"📊 盈亏状态 | {profit_status} {profit_ratio:.2%} | 盈亏金额: {profit_abs:.2f} USDT")
+        self.logger.info(f"📊 盈亏状态 | {profit_status} {profit_ratio:.2%} | 盈亏金额: {profit_abs:.2f}/100 USDT")
         if all(tp_conditions):
             self.logger.info(f"🚀 触发止盈 | 盈利{profit_ratio:.2%} ≥ 目标{self.target_profit_ratio * 100}%")
             self.close_position(is_force=True)
