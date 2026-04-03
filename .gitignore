@@ -3,3 +3,8 @@
 "trades.csv" 
 "config.json" 
 "pycache/" 
+.venv/ 
+__pycache__/ 
+*.log 
+logs/ 
+trade_records.json 

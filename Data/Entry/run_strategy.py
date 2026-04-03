@@ -1,5 +1,5 @@
-from main import  OKXFuturesTrader
-from config_utils import load_config
+from Data.Core.main import  OKXFuturesTrader
+from Data.Config.config_utils import load_config
 
 if __name__ == '__main__':
     try:

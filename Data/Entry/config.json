@@ -14,17 +14,17 @@
     "strategy": {
         "leverage": 10,
         "position_ratio": 0.1,
-        "lr_weight": 0.4,
+        "lr_weight": 0.5,
         "rf_weight": 0.6,
-        "vote_threshold": 0.50,
-        "tp_prob_threshold": 0.2,
-        "sl_prob_threshold": 0.3,
+        "vote_threshold": 0.6,
+        "tp_prob_threshold": 0.55,
+        "sl_prob_threshold": 0.45,
         "cycle_interval": 60,
-        "boll_window": 60,
+        "boll_window": 20,
         "boll_dev": 2,
         "min_profit_threshold": 0.004,
-        "target_profit_ratio": 0.02,
-        "min_loss_threshold": 0.01
+        "target_profit_ratio": 0.012,
+        "min_loss_threshold": 0.001
     },
     "log": {
         "log_path": "./logs",

@@ -2,17 +2,15 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-import json
 import sys
 import os
-from datetime import datetime, timedelta
 import warnings
 
 warnings.filterwarnings('ignore')
 
 # 加入环境变量，复用main.py的配置和行情逻辑
 sys.path.append(os.getcwd())
-from main import load_config, create_proxy_session
+from Data.Core.main import load_config
 from ccxt import okx
 
 # ===================== 1. 核心配置（和实战策略完全一致） =====================

@@ -142,7 +142,7 @@ else:
 
 # ================= 3. 最新运行日志 =================
 st.subheader("📜 最新运行日志")
-log_dir = "./logs"
+log_dir = "../../logs"
 if os.path.exists(log_dir):
     # 匹配合约策略的日志文件名
     log_files = [f for f in os.listdir(log_dir) if f.startswith("okx_spot_strategy_") and f.endswith(".log")]
