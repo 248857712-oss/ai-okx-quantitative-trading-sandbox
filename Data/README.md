@@ -1,4 +1,4 @@
-### 请在coonfig.json更改配置  
+### 请在Entry/config.json更改配置  
 ### 以下是文件目录大志内容
 
 ```
